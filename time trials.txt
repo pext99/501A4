@@ -1,0 +1,9 @@
+Total time for baseline algorithm: 0.083306
+
+Total time for algorithm based program:
+
+After Optimization 1: 0.036844
+After Optimization 2: 0.034712
+After Optimization 3: 0.042783
+After Optimization 4: 0.030256
+After Optimization 5: 0.014630
