@@ -184,13 +184,10 @@ int saveWave(char* filename)
 				x[k] = y[k] = 0.0;
 				for (n = 0, nn = 0; n < IRSize; n++, nn += 2) {
 					float temp = newData[nn];
-					
 					float nCosine = (temp * cos(omega * n * i));
 					float nSine = (temp * sin(omega * n * i));
-					
 					x[k] += nCosine;
 					y[k] -= nSine;
-					
 				}
 				i++;
 				
